@@ -1,13 +1,8 @@
 # housing-price-model-selection
 Comparison of OLS, Ridge, and Cubic Spline Regression for housing price prediction
 
-This project features three regression methods to predict housing prices:
-- Ordinary Least Squares (OLS)
-- Ridge Regression (L2 Regularized)
-- Cubic Spline Regression
-
 ## Objective:
-Assess difference regression performances and analyze the bias-variance tradeoff using K-fold CV and test RMSE
+Assess differences in regression performance and analyze the bias-variance tradeoff using K-fold CV and test RMSE
 
 ## Dataset:
 - 545 residential housing observations
@@ -21,7 +16,7 @@ Assess difference regression performances and analyze the bias-variance tradeoff
 
 ## Final Results:
 - Ridge Regression has the best performance (lowest test RMSE across all models)
-- Moderate regularization reduce variance and improve final prediction
+- Moderate regularization reduce variance and improve generalization in prediction
 
 ## Tools:
 - Python
